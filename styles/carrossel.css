@@ -1,0 +1,183 @@
+.carrossel_titulo {
+
+
+    padding: 1em 0 0.5em 0;
+    font-family: var(--fonte-principal);
+    color: var(--cor-menu-titulo);
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--cor-branca);
+
+}
+
+.swiper-slide img {
+
+    width: 100%;
+
+}
+
+
+div .swiper-button-next {
+    display: none;
+}
+
+div .swiper-button-prev {
+    display: none;
+}
+
+div .swiper-pagination {
+
+    position: initial;
+    margin: 1em;
+}
+
+.card {
+    padding: 1em;
+    margin: 1em 1em 2em 1em;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.539);
+    border-radius: 10px;
+}
+
+.card_descricao {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+
+.card_botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.card_lista_botoes {
+    display: flex;
+}
+
+.descricoes {
+    margin: 1em 0em 1em 0em;
+
+}
+
+.card_descricao_titulo {
+    font-family: var(--fonte-principal);
+    color: var(--cor-menu-titulo);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.75em 1em;
+}
+
+.card_descricao_subtitulo {
+    font-family: var(--fonte-principal);
+    color: #002F52;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 0 0.75em 0.75em;
+}
+
+.card_descricao_texto {
+    font-family: var(--fonte-principal);
+    color: #000000;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0em 1em;
+}
+
+.card_botoes_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+}
+
+.saiba_mais {
+
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    color: var(--cor-branca);
+    background-color: var(--cor-menu-titulo);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    align-items: center;
+
+
+}
+
+.descricoes_autora {
+
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+
+}
+
+.estrelas_autora {
+
+    padding-left: 1em;
+
+}
+
+.descricao_autora {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    div .swiper-button-next {
+        display: block;
+    }
+
+    div .swiper-button-prev {
+        display: block;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-slide img {
+
+        width: 60%;
+        padding: 1em;
+
+    }
+
+    .card {
+
+        margin: 3em auto;
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:1728px) {
+
+    .container_carrossel {
+
+        display: flex;
+        margin: 1em 8em;
+
+    }
+
+    .swiper-slide img {
+        width: 80%;
+    }
+
+    .carrossel_titulo {
+
+        padding: 3em 2em;
+        font-size: 2rem;
+
+    }
+    
+}
